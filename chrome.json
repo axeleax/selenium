@@ -1,0 +1,26 @@
+{
+    "capabilities":
+    [
+      {
+        "browserName": "chrome",
+        "platformName": "WINDOWS",
+        "browserVersion": "80.0.3987.149",
+        "maxInstances": 5
+      }
+    ],
+  
+    "port": 5555,
+    "hubHost": "localhost",
+    "maxSession": 5,
+    "register": true,
+    "registerCycle": 5000,
+    "nodeStatusCheckTimeout": 5000,
+    "nodePolling": 5000,
+    "role": "node",
+    "unregisterIfStillDownAfter": 10000,
+    "downPollingLimit": 2,
+    "debug": false,
+    "servlets" : [],
+    "withoutServlets": [],
+    "custom": {}
+  }

@@ -1,0 +1,26 @@
+{
+    "capabilities":
+    [
+      {
+        "browserName": "firefox",
+        "platform": "WINDOWS",
+        "maxInstances": 5,
+        "version": "73.0.1",
+        "seleniumProtocol": "WebDriver"
+      }
+    ],
+    "port": 5556,
+    "hubHost": "localhost",
+    "maxSession": 5,
+    "register": true,
+    "registerCycle": 5000,
+    "nodeStatusCheckTimeout": 5000,
+    "nodePolling": 5000,
+    "role": "node",
+    "unregisterIfStillDownAfter": 10000,
+    "downPollingLimit": 2,
+    "debug": false,
+    "servlets" : [],
+    "withoutServlets": [],
+    "custom": {}
+  }

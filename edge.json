@@ -1,0 +1,23 @@
+{
+    "capabilities":
+    [
+      {
+        "browserName":"MicrosoftEdge",
+        "platformName":"WINDOWS",
+        "browserVersion":"80.0.361.109",
+        "maxInstances": 5
+      }
+    ],
+  
+    "port": 5557,
+    "hubHost": "localhost",
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 5,
+    "register": true,
+    "registerCycle": 5000,
+    "unregisterIfStillDownAfter": 10000,
+    "debug": false,
+    "role": "node"
+  }
